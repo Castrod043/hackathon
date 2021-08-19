@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link href="https://fonts.googleapis.com/css?family=Aclonica" rel="stylesheet">
+<html>
+
+<head>
+    <title>Castro's camper avontuur</title>
+</head>
+
+<body class="body">
+    <main>
+        <header class="topheader">
+            <div>
+                <h1>Het leven van een Digital nomad</h1>
+
+            </div>
+        </header><br>
+        <div>
+            <nav>
+                <ul class="nav_ul">
+                    <li><a href="index.html">[Home]</a></li>
+                    <li><a href="overmij.html">[wie ben ik]</a></li>
+                    <li><a href="contact.html">[Contact]</a></li>
+
+                </ul>
+            </nav>
+        </div><br>
+        <div>
+
+        </div>
+        <div class="contact">
+            <form name="contact" method="POST" data-netlify="true">
+                <!-- <form action="results.html" method="GET" enctype="multipart/form-data"> -->
+                <div>
+                    <label for="naam">Naam</label>
+                    <input type="text" name="naam" id="naam" required />
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required />
+                </div>
+                <div>
+                    <label for="tel">Tel</label>
+                    <input type="tel" name="tel" id="tel" />
+                </div>
+                <div>
+                    <label for="leeftijd">Leeftijd</label>
+                    <input type="number" name="age" id="age" min="1" max="200" step="5" />
+                </div>
+                <div>
+                    <label for="gbdatum">Wanneer ben je geboren</label>
+                    <input type="date" name="gbdatum" id="gbdate" min="2019-06-10" />
+                </div>
+                <hr />
+                <div>
+                    Hoe presenteer jij jezelf op deze aardbol
+                    <div>
+                        <label for="man">Man</label>
+                        <input type="radio" name="gender" id="man" value="man" />
+                    </div>
+                    <div>
+                        <label for="female">Vrouw</label>
+                        <input type="radio" name="gender" id="Vrouw" value="Vrouw" />
+                    </div>
+                    <div>
+                        <label for="undefined">Zeg ik niet</label>
+                        <input type="radio" name="gender" id="Zeg ik niet" value="Zeg ik niet" />
+                    </div>
+                </div>
+
+                <div>
+
+                </div><br>
+                Wat voor informatie zou je willen ontvangen
+                <div>
+                    <label for="Persoonlijk">Over mijzelf</label>
+                    <input type="checkbox" name="Over mijzelf" id="Over mijzelf" />
+                </div>
+                <div>
+                    <label for="Leven als digital nomad">leven als digital nomad</label>
+                    <input type="checkbox" name="leven als digital nomad" id="leven als digital nomad" />
+                </div><br>
+
+                <div>
+                    <label for="bio">Bericht</label>
+                    <textarea id="bericht" name="bericht"></textarea>
+                </div><br>
+                <button type="reset">Reset</button>
+                <button type="submit">Verstuur</button>
+            </form>
+        </div>
+
+
+    </main>
+    <footer class="footer">
+        <div>
+            <h2 class="center">copyright by Castro</h2>
+        </div>
+    </footer>
+
+</body>
+
+</html>
